@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dbe1f838-d288-4eb2-aac1-7b2725778248" name="Changes" comment="Spring JPA와 jwt 토큰을 이용한 회원가입">
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_classmate_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_17_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_17_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_17_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_17_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_17_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_parameter_names_2_17_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_h2database_h2_2_2_224.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mysema_commons_mysema_commons_lang_0_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mysql_mysql_connector_j_8_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_querydsl_querydsl_core_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_querydsl_querydsl_jpa_jakarta_5_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_istack_istack_commons_runtime_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zaxxer_HikariCP_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_jsonwebtoken_jjwt_api_0_12_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_jsonwebtoken_jjwt_gson_0_12_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_jsonwebtoken_jjwt_impl_0_12_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_micrometer_micrometer_commons_1_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_micrometer_micrometer_observation_1_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_rest_assured_json_path_5_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_rest_assured_rest_assured_5_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_rest_assured_rest_assured_common_5_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_rest_assured_xml_path_5_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_smallrye_jandex_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_activation_jakarta_activation_api_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_inject_jakarta_inject_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_persistence_jakarta_persistence_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_transaction_jakarta_transaction_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_validation_jakarta_validation_api_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_xml_bind_jakarta_xml_bind_api_4_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_14_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_14_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_accessors_smart_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_json_smart_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_antlr_antlr4_runtime_4_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_groovy_groovy_4_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_groovy_groovy_json_4_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_groovy_groovy_xml_4_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpmime_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_23_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_23_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_10_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_10_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_9_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_3_25_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_awaitility_awaitility_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_angus_angus_activation_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_jaxb_core_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_jaxb_runtime_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_txw2_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_common_hibernate_commons_annotations_6_0_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_orm_hibernate_core_6_5_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_validator_hibernate_validator_8_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_5_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_5_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_junit_jupiter_5_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_2_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_2_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_aop_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_data_jpa_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_json_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_validation_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_commons_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_jpa_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_6_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aspects_6_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_6_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_6_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_6_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_6_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jcl_6_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_6_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_orm_6_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_6_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_6_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_web_6_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_webmvc_6_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/community_feed.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/community_feed.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/application/AuthService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/application/EmailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/application/dto/CreateUserAuthRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/application/dto/LoginRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/application/dto/SendEmailRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/application/dto/UserAccessTokenResponseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/application/interfaces/EmailSendRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/application/interfaces/EmailVerificationRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/application/interfaces/UserAuthRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/domain/Email.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/domain/Password.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/domain/RandomTokenGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/domain/SHA256.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/domain/TokenProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/domain/UserAuth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/domain/UserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/repository/EmailSendRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/repository/EmailVerificationRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/repository/UserAuthRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/repository/entity/EmailVerificationEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/repository/entity/QEmailVerificationEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/repository/entity/QUserAuthEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/repository/entity/UserAuthEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/repository/jpa/JpaEmailVerificationRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/repository/jpa/JpaUserAuthRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/ui/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/auth/ui/SignUpController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/common/config/AuthConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/common/config/QuerydslConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/common/domain/PositiveIntegerCounter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/common/domain/exception/ErrorCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/common/handler/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/common/principal/AuthPrincipal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/common/principal/AuthenticationPrincipalArgumentResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/common/principal/UserPrincipal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/common/repository/QTimeBaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/common/repository/TimeBaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/common/ui/HealthcheckController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/common/ui/Response.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/application/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/application/PostService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/application/dto/CreateCommentRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/application/dto/CreatePostRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/application/dto/GetContentResponseDto$GetContentResponseDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/application/dto/GetContentResponseDto$GetContentResponseDtoBuilderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/application/dto/GetContentResponseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/application/dto/GetPostContentResponseDto$GetPostContentResponseDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/application/dto/GetPostContentResponseDto$GetPostContentResponseDtoBuilderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/application/dto/GetPostContentResponseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/application/dto/LikeRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/application/dto/UpdateCommentRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/application/dto/UpdatePostRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/application/interfaces/CommentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/application/interfaces/LikeRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/application/interfaces/PostRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/domain/Post$PostBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/domain/Post.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/domain/PostPublicationState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/domain/comment/Comment$CommentBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/domain/comment/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/domain/content/CommentContent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/domain/content/Content.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/domain/content/DatetimeInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/domain/content/PostContent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/CommentQueryRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/CommentRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/LikeRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/PostRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/entity/comment/CommentEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/entity/comment/QCommentEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/entity/like/LikeEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/entity/like/LikeId.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/entity/like/LikeTarget.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/entity/like/QLikeEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/entity/like/QLikeId.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/entity/post/PostEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/entity/post/PostPublicationStateConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/entity/post/QPostEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/jpa/JpaCommentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/jpa/JpaLikeRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/jpa/JpaPostRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/post_queue/UserPostQueueCommandRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/post_queue/UserPostQueueCommandRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/post_queue/UserPostQueueQueryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/post_queue/UserPostQueueQueryRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/post_queue/UserQueueRedisRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/repository/post_queue/UserQueueRedisRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/ui/CommentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/ui/FeedController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/post/ui/PostController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/application/UserRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/application/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/application/dto/CreateUserRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/application/dto/FollowUserRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/application/dto/GetUserListResponseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/application/dto/GetUserResponseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/application/interfaces/UserRelationRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/application/interfaces/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/domain/User$UserBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/domain/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/repository/UserRelationRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/repository/UserRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/repository/entity/QUserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/repository/entity/QUserRelationEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/repository/entity/QUserRelationId.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/repository/entity/UserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/repository/entity/UserRelationEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/repository/entity/UserRelationId.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/repository/jpa/JpaUserListPagingQueryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/repository/jpa/JpaUserListQueryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/repository/jpa/JpaUserRelationRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/repository/jpa/JpaUserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/ui/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/org/fastcampus/community_feed/user/ui/UserRelationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/querydsl/org/fastcampus/community_feed/auth/repository/entity/QEmailVerificationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/querydsl/org/fastcampus/community_feed/auth/repository/entity/QUserAuthEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/querydsl/org/fastcampus/community_feed/common/repository/QTimeBaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/querydsl/org/fastcampus/community_feed/post/repository/entity/comment/QCommentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/querydsl/org/fastcampus/community_feed/post/repository/entity/like/QLikeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/querydsl/org/fastcampus/community_feed/post/repository/entity/like/QLikeId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/querydsl/org/fastcampus/community_feed/post/repository/entity/post/QPostEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/querydsl/org/fastcampus/community_feed/user/repository/entity/QUserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/querydsl/org/fastcampus/community_feed/user/repository/entity/QUserRelationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/querydsl/org/fastcampus/community_feed/user/repository/entity/QUserRelationId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community_feed.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/common/repository/entity/QTimeBaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/application/AuthService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/application/EmailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/application/dto/CreateUserAuthRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/application/dto/LoginRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/application/dto/SendEmailRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/application/dto/UserAccessTokenResponseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/application/interfaces/EmailSendRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/application/interfaces/EmailVerificationRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/application/interfaces/UserAuthRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/domain/Email.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/domain/Password.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/domain/RandomTokenGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/domain/SHA256.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/domain/TokenProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/domain/UserAuth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/domain/UserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/repository/EmailSendRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/repository/EmailVerificationRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/repository/UserAuthRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/repository/entity/EmailVerificationEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/repository/entity/UserAuthEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/repository/jpa/JpaEmailVerificationRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/repository/jpa/JpaUserAuthRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/ui/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/auth/ui/SignUpController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/common/config/AuthConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/common/config/QuerydslConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/common/domain/PositiveIntegerCounter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/common/domain/exception/ErrorCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/common/handler/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/common/principal/AuthPrincipal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/common/principal/AuthenticationPrincipalArgumentResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/common/principal/UserPrincipal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/common/repository/TimeBaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/common/ui/HealthcheckController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/common/ui/Response.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/application/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/application/PostService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/application/dto/CreateCommentRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/application/dto/CreatePostRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/application/dto/GetContentResponseDto$GetContentResponseDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/application/dto/GetContentResponseDto$GetContentResponseDtoBuilderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/application/dto/GetContentResponseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/application/dto/GetPostContentResponseDto$GetPostContentResponseDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/application/dto/GetPostContentResponseDto$GetPostContentResponseDtoBuilderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/application/dto/GetPostContentResponseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/application/dto/LikeRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/application/dto/UpdateCommentRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/application/dto/UpdatePostRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/application/interfaces/CommentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/application/interfaces/LikeRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/application/interfaces/PostRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/domain/Post$PostBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/domain/Post.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/domain/PostPublicationState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/domain/comment/Comment$CommentBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/domain/comment/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/domain/content/CommentContent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/domain/content/Content.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/domain/content/DatetimeInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/post/domain/content/PostContent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/user/application/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/user/application/dto/CreateUserRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/user/application/dto/GetUserResponseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/user/application/interfaces/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/user/domain/User$UserBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/user/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/community_feed/user/domain/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/post/repository/entity/comment/QCommentEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/post/repository/entity/like/QLikeEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/post/repository/entity/like/QLikeIdEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/post/repository/entity/post/QPostEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/user/repository/entity/QUserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/user/repository/entity/QUserRelationEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/fastcampus/user/repository/entity/QUserRelationIdEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/org/fastcampus/common/domain/PositiveIntegerCounterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/org/fastcampus/post/domain/common/DatetimeInfoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/org/fastcampus/post/domain/content/PostContentTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/org/fastcampus/user/application/UserRelationServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/org/fastcampus/user/application/UserServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/org/fastcampus/user/domain/UserInfoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/org/fastcampus/user/domain/UserTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/org/fastcampus/user/repository/FakeUserRelationRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/org/fastcampus/user/repository/FakeUserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/org/fastcampus/user/repository/Relation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/application/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/application/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/application/dto/CreateUserAuthRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/application/dto/LoginRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/application/dto/SendEmailRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/application/dto/UserAccessTokenResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/application/interfaces/EmailSendRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/application/interfaces/EmailVerificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/application/interfaces/UserAuthRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/domain/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/domain/Password.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/domain/RandomTokenGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/domain/SHA256.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/domain/TokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/domain/UserAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/domain/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/repository/EmailSendRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/repository/EmailVerificationRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/repository/UserAuthRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/repository/entity/EmailVerificationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/repository/entity/UserAuthEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/repository/jpa/JpaEmailVerificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/repository/jpa/JpaUserAuthRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/ui/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/auth/ui/SignUpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/common/config/AuthConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/common/config/QuerydslConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/common/domain/PositiveIntegerCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/common/domain/exception/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/common/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/common/principal/AuthPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/common/principal/AuthenticationPrincipalArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/common/principal/UserPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/common/repository/TimeBaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/common/ui/HealthcheckController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/common/ui/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/application/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/application/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/application/dto/CreateCommentRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/application/dto/CreatePostRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/application/dto/GetContentResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/application/dto/GetPostContentResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/application/dto/LikeRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/application/dto/UpdateCommentRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/application/dto/UpdatePostRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/application/interfaces/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/application/interfaces/LikeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/application/interfaces/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/domain/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/domain/PostPublicationState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/domain/comment/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/domain/content/CommentContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/domain/content/Content.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/domain/content/DatetimeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/domain/content/PostContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/CommentQueryRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/CommentRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/LikeRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/PostRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/entity/comment/CommentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/entity/like/LikeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/entity/like/LikeId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/entity/like/LikeTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/entity/post/PostEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/entity/post/PostPublicationStateConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/jpa/JpaCommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/jpa/JpaLikeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/jpa/JpaPostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/post_queue/UserPostQueueCommandRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/post_queue/UserPostQueueCommandRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/post_queue/UserPostQueueQueryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/post_queue/UserPostQueueQueryRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/post_queue/UserQueueRedisRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/repository/post_queue/UserQueueRedisRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/ui/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/ui/FeedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/post/ui/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/application/UserRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/application/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/application/dto/CreateUserRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/application/dto/FollowUserRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/application/dto/GetUserListResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/application/dto/GetUserResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/application/interfaces/UserRelationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/application/interfaces/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/domain/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/repository/UserRelationRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/repository/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/repository/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/repository/entity/UserRelationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/repository/entity/UserRelationId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/repository/jpa/JpaUserListPagingQueryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/repository/jpa/JpaUserListQueryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/repository/jpa/JpaUserRelationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/repository/jpa/JpaUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/ui/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fastcampus/community_feed/user/ui/UserRelationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/acceptance/auth/AuthAcceptanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/acceptance/auth/LoginAcceptanceSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/acceptance/auth/LoginAcceptanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/acceptance/auth/SignUpAcceptanceSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/acceptance/post/FeedAcceptanceSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/acceptance/post/FeedAcceptanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/acceptance/post/UserAcceptanceSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/acceptance/utils/AcceptanceTestTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/acceptance/utils/DataLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/acceptance/utils/DatabaseCleanup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/auth/domain/EmailTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/auth/domain/PasswordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/auth/domain/RandomTokenGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/auth/domain/TokenProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/common/FakeObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/common/PositiveIntegerCounterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/post/application/CommentServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/post/application/PostServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/post/application/PostServiceTestTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/post/domain/PostTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/post/domain/comment/CommentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/post/domain/content/CommentContentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/post/domain/content/DatetimeInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/post/domain/content/PostContentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/post/repository/FakeCommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/post/repository/FakeLikeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/post/repository/FakePostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/user/application/UserRelationServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/user/application/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/user/domain/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/user/repository/FakeUserRelationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fastcampus/community_feed/user/repository/FakeUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application-test.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="community_feed" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="community_feed" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="community_feed" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="community_feed" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="community_feed" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2lsZLuu47PckPlbM4Ffg9lcKol7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DatetimeInfoTest.givenCreated_whenUpdated_thenTimeAndStateArsUpdated.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PositiveIntegerCounterTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PositiveIntegerCounterTest.givenCreatedAndIncreased_whenDecrease_thenCountIsZero.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PositiveIntegerCounterTest.givenCreated_whenDecrease_thenCountIsZero.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PositiveIntegerCounterTest.givenCreated_whenDecrease_tthenCountIsZero.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PositiveIntegerCounterTest.givenCreated_whenIncrease_thenCountIsOne.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PositiveIntegerCounterTest.givenCreated_whenIncrease_tthenCountIsOne.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PostContentTest.givenContentIsEmpty_whenCreated_thenThrowError.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PostContentTest.givenContentLengthIsOk_whenCreated_whenReturnTextContent.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PostContentTest.givenContentLengthIsOverAndKorean_whenCreated_thenThrowError.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PostContentTest.givenContentLengthIsOver_whenCreated_thenThrowError.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PostContentTest.givenContentLengthIsUnder_whenCreated_thenThrowError.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserInfoTest.givenBlankNameAndProfileImage_whenCreated_thenThrowError.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserInfoTest.givenNameAndProfileImage_whenCreated_thenThrowNothing.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserRelationServiceTest.givenCreateOneUser_whenFollow_thenUserThrowError.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserRelationServiceTest.givenCreateOneUser_whenUnfollowSelf_thenUserThrowError.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserRelationServiceTest.givenCreateTwoUserFollowed_whenFollow_thenUserThrowError.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserRelationServiceTest.givenCreateTwoUser_whenFollow_thenUserFollowSaved.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserRelationServiceTest.givenCreateTwoUser_whenUnfollow_thenUserThrowError.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.UserServiceTest.givenUserInfoDto_whenCreateUser_thenCanFindUser.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserServiceTest.givenUserInfoDto_whenCreateUser_thennCanFindUser.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserTest.givenTwoSameIdUser_whenEqual_thenReturnTru.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserTest.givenTwoSameIdUser_whenEqual_thenReturnTrue.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserTest.givenTwoSameIdUser_whenHashCode_thenEquaal.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserTest.givenTwoUserUser1FollowUser2_whenUnFollow_thenDecreaseUserCount.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserTest.givenTwoUser_whenEqual_thenReturnFalse.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserTest.givenTwoUser_whenHashCode_thenReturnFalse.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserTest.givenTwoUser_whenUser1FollowUser2_thenIncreaseUserCount.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.community_feed [:org.dongha.Application.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.community_feed [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.community_feed [compileJava].executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in community_feed.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in community_feed.test.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/project/workspace/community_feed&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.fastcampus.user.repository.jpa" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.fastcampus.community_feed.post.repository.post_queue" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.community_feed [compileJava]">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fastcampus.Application" />
+      <module name="community_feed.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fastcampus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="community_feed [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="community_feed [compileJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compileJava" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="All in community_feed.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community_feed.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in community_feed.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community_feed.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.community_feed [compileJava]" />
+        <item itemvalue="Gradle.community_feed [clean]" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.All in community_feed.test (1)" />
+        <item itemvalue="JUnit.All in community_feed.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbe1f838-d288-4eb2-aac1-7b2725778248" name="Changes" comment="" />
+      <created>1725970693060</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725970693060</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Spring JPA와 jwt 토큰을 이용한 회원가입">
+      <option name="closed" value="true" />
+      <created>1736942387134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736942387135</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="60bf6b53-92e0-409d-bff4-fa438f367e3b" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="60bf6b53-92e0-409d-bff4-fa438f367e3b">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Spring JPA와 jwt 토큰을 이용한 회원가입" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring JPA와 jwt 토큰을 이용한 회원가입" />
+  </component>
+</project>
